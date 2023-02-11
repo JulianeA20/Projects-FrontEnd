@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navegation {
+    padding: 10px 0;
+    list-style: none;
+    display: flex;
+    background-color: rgb(255, 154, 82);
+}
+
+#navegation li {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+#navegation li:not(:nth-of-type(1)) {
+    border-left: 1px solid rgb(69, 0, 0);
+}
+
+#navegation li a {
+    text-decoration: none;
+    color: brown;
+}
+
+#navegation li a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 30px auto 0;
+}
+
+th, td {
+    padding: 10px;
+}
+
+div {
+    margin-block: ;
+    display: flex;
+    justify-content: center;
+}
+
+div a {
+    text-decoration: none;
+    color: brown;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: 0.4s;
+}
+
+div a:hover {
+    border-color: brown;
+    background: transparent;
+}
